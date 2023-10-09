@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.7.4",
     "express": "^4.18.2",
+    "face-api.js": "^0.22.2",
     "socket.io": "^2.2.0"
   },
   "devDependencies": {

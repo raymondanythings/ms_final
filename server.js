@@ -36,6 +36,8 @@ server.listen(3000)
 io.on('connection', socket => {
   socket.on('new-user', (room, name) => {
     socket.join(room)
+    console.log(rooms)
+    console.log(rooms.room)
     rooms[room].users[socket.id] = name
     socket.to(room).broadcast.emit('user-connected', name)
   })
