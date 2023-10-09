@@ -1,5 +1,7 @@
 //const socket = io('http://localhost:3000')
-const socket = io("https://suhyun-ms-project2.onrender.com");
+const socket = io(
+  "https://port-0-ms-final-test-euegqv2blniyhcpm.sel5.cloudtype.app"
+);
 const messageContainer = document.getElementById("message-container");
 const roomContainer = document.getElementById("room-container");
 const messageForm = document.getElementById("send-container");
