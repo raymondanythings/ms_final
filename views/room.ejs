@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
   <script>
     const roomName = "<%= roomName %>"
   </script>
-  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="https://port-0-ms-final-test-euegqv2blniyhcpm.sel5.cloudtype.app/socket.io/socket.io.js"></script>
   <script defer src="face-api.min.js"></script>
   <script defer src="script.js"></script>
   <style>
@@ -45,29 +46,31 @@
       flex-grow: 1;
     }
 
-    #hi{
+    #hi {
       padding: 10px;
       position: fixed;
-  top: 0;
-  /* width: 100% */
+      top: 0;
+      /* width: 100% */
 
-  right: 0;
+      right: 0;
     }
-    #pp{
+
+    #pp {
       padding: 10px;
       position: fixed;
-  top: 0;
-  /* width: 100% */
+      top: 0;
+      /* width: 100% */
 
-  right: 0;
+      right: 0;
     }
-    #chat-box{
+
+    #chat-box {
       padding: 20px;
-      height : 100%;
+      height: 100%;
     }
-
   </style>
 </head>
+
 <body>
   <span id="chat-box">
     <div id="message-container"></div>
@@ -84,4 +87,5 @@
 
   </span>
 </body>
+
 </html>
